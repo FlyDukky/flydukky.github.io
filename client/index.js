@@ -10,19 +10,13 @@ let account;
 
 const accountEl = document.getElementById('account');
 
-// const main = async () => {
-//   const accounts = await web3.eth.requestAccounts();
-//   account = accounts[0];
-//   accountEl.innerText = account;
-// };
-
-// main();
-
-async () => {
+const main = async () => {
   const accounts = await web3.eth.requestAccounts();
   account = accounts[0];
   accountEl.innerText = account;
 };
+
+main();
 
 
 window.onload = async () => {
