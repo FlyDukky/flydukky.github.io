@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.19.4",
+    "@babel/runtime-corejs3": "^7.19.4",
     "@truffle/hdwallet-provider": "^2.0.15",
     "web3": "^1.8.0"
   }
