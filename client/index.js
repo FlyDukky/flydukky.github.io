@@ -10,13 +10,20 @@ let account;
 
 const accountEl = document.getElementById('account');
 
-const main = async () => {
+// const main = async () => {
+//   const accounts = await web3.eth.requestAccounts();
+//   account = accounts[0];
+//   accountEl.innerText = account;
+// };
+
+// main();
+
+async () => {
   const accounts = await web3.eth.requestAccounts();
   account = accounts[0];
   accountEl.innerText = account;
 };
 
-main();
 
 window.onload = async () => {
   // Init Web3 connected to ETH network
