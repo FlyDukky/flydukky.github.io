@@ -1,4 +1,4 @@
-import "regenerator-runtime/runtime";
+import '@babel/plugin-transform-runtime';
 import Web3 from 'web3';
 
 
