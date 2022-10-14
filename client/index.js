@@ -1,3 +1,4 @@
+import "regenerator-runtime/runtime";
 import Web3 from 'web3';
 
 
