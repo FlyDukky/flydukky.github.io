@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://flydukky.github.io/client/index.html",
+  "homepage": "https://flydukky.github.io/client",
   "scripts": {
     "start": "parcel index.html"
   },
